@@ -8,3 +8,6 @@ print(2*2)
 
 #elevado
 print(2**3)
+
+#MOD
+print(10 % 3)
