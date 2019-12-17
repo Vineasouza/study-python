@@ -3,4 +3,4 @@ Repositório para estudo da linguagem Python desde o inicio até técnicas mais 
 
 # Video Aulas utilizadas
 
-- https://www.udemy.com/course/intro_python/
+- curso 1: https://www.udemy.com/course/intro_python/
