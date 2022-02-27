@@ -1,9 +1,9 @@
-x = 1000
-y = 1000
+X = 1000
+Y = 1000
 
-if x > y:
-    print("x maior que y")
-elif x == y:
-    print("x igual a y")
+if X > Y:
+    print("X maior que Y")
+elif X == Y:
+    print("X igual a Y")
 else:
-    print("x nao e maior que y")
+    print("X nao e maior que Y")
