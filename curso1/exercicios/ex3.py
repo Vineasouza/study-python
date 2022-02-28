@@ -1,15 +1,18 @@
-#Escreva um programa que resolva uma equação de segundo grau.  
+"""
+Escreva um programa que resolva uma equação de segundo grau.
+"""
+
 from math import sqrt
 
-a = float(input("Digite o valor de a: "))
-b = float(input("Digite o valor de b: "))
-c = float(input("Digite o valor de c: "))
+VAR_A = float(input("Digite o valor de VAR_A: "))
+VAR_B = float(input("Digite o valor de VAR_B: "))
+VAR_C = float(input("Digite o valor de VAR_C: "))
 
-delta = b**2 - 4*a*c
-raizDelta = sqrt(delta)
+DELTA = VAR_B**2 - 4*VAR_A*VAR_C
+RAIZ_DELTA = sqrt(DELTA)
 
-x1 = (-b + raizDelta)/2*a
-x2 = (-b - raizDelta)/2*a
+RAIZ_1 = (-VAR_B + RAIZ_DELTA)/2*VAR_A
+RAIZ_2 = (-VAR_B - RAIZ_DELTA)/2*VAR_A
 
-print("Raiz 1: ", x1)
-print("Raiz 2: ", x2)
+print("Raiz 1: ", RAIZ_1)
+print("Raiz 2: ", RAIZ_2)

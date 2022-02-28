@@ -1,7 +1,12 @@
-a = 2
-b = 1
+"""
+Using exception function
+"""
+
+A = 2
+B = 1
 
 try:
-    print(a/b)
-except:
-    print("Divisao por zero")
+    print(A/B)
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
+    

@@ -1,17 +1,21 @@
-x = [1,2,3,4,5]
-y = []
+"""
+List comparison
+"""
 
-for i in x:
-    y.append(i**2)
+X_PARAM = [1,2,3,4,5]
+Y_PARAM = []
 
-print(x)
-print(y)
+for i in X_PARAM:
+    Y_PARAM.append(i**2)
+
+print(X_PARAM)
+print(Y_PARAM)
 
 #list comprehension
-x = [1,2,3,4,5]
-y = [i**2 for i in x]
-z = [i for i in x if i%2==1] 
+X_PARAM = [1,2,3,4,5]
+Y_PARAM = [i**2 for i in X_PARAM]
+Z_PARAM = [i for i in X_PARAM if i%2==1]
 
-print(x)
-print(y)
-print(z)
+print(X_PARAM)
+print(Y_PARAM)
+print(Z_PARAM)

@@ -1,4 +1,7 @@
 #-*- coding: utf-8 -*-
+"""
+foo
+"""
 
 #soma
 print(2+2)

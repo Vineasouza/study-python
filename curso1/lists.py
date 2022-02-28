@@ -1,55 +1,59 @@
+"""
+List comparison
+"""
+
 #cricao de listas
-minha_lista = ["abacaxi", "melancia", "abacate"]
-minha_lista2 = [1,2,3,4,5]
-minha_lista3 = ["abacaxi", 2, 9.89, True]
+MINHA_LISTA = ["abacaxi", "melancia", "abacate"]
+MINHA_LISTA2 = [1,2,3,4,5]
+MINHA_LISTA3 = ["abacaxi", 2, 9.89, True]
 
 #printando listas inteiras
-print(minha_lista)
-print(minha_lista2)
-print(minha_lista3)
+print(MINHA_LISTA)
+print(MINHA_LISTA2)
+print(MINHA_LISTA3)
 
 #printando valor especifico
-print(minha_lista[1])
+print(MINHA_LISTA[1])
 
-#varrendo lista
-for i in minha_lista:
+#varrendo LISTA
+for i in MINHA_LISTA:
     print(i)
 
-#tamanho da lista
-tam = len(minha_lista)
-print(tam)
+#tamanho da LISTA
+TAM = len(MINHA_LISTA)
+print(TAM)
 
-#adicionar elementos ao final da lista
-minha_lista.append("limao")
-print(minha_lista)
+#adicionar elementos ao final da LISTA
+MINHA_LISTA.append("limao")
+print(MINHA_LISTA)
 
-#localizar elementos na lista
-if 7 in minha_lista2:
-    print("7 esta na lista")
+#localizar elementos na LISTA
+if 7 in MINHA_LISTA2:
+    print("7 esta na LISTA")
 else:
-    print("7 nao esta na lista")
+    print("7 nao esta na LISTA")
 
-#remover elementos na lista
-del minha_lista[2:]
-print(minha_lista)
+#remover elementos na LISTA
+del MINHA_LISTA[2:]
+print(MINHA_LISTA)
 
-#criar lista em branco
-minha_lista4 = []
-minha_lista4.append(57)
-print(minha_lista4)
+#criar LISTA em branco
+MINHA_LISTA4 = []
+MINHA_LISTA4.append(57)
+print(MINHA_LISTA4)
 
 #ordenacao de listas
-lista = [4,7,6,9,23,45,1,5,87,200]
-print(lista)
-#inverter a ordem a lista
-lista.reverse()
-print(lista)
-#retorna a lista ordenada
-listaord = sorted(lista)
-print(listaord)
-#ordena a lista
-lista.sort()
-print(lista)
-#ordena a lista decrescente
-lista.sort(reverse=True)
-print(lista)
+LISTA = [4,7,6,9,23,45,1,5,87,200]
+print(LISTA)
+#inverter a ordem a LISTA
+LISTA.reverse()
+print(LISTA)
+#retorna a LISTA ordenada
+LISTAORD = sorted(LISTA)
+print(LISTAORD)
+#ordena a LISTA
+LISTA.sort()
+print(LISTA)
+#ordena a LISTA decrescente
+LISTA.sort(reverse=True)
+print(LISTA)

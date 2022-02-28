@@ -1,35 +1,38 @@
-a = "Vinicius"
-b = "Souza"
+"""
+Manipulating strings
+"""
 
-concat = a + " " + b + "\n"
-print(concat)
-tamanho = len(concat)
-print(tamanho)
+A_VAR = "Vinicius"
+B_VAR = "Souza"
 
-print(concat[0:14])
+CONCAT = A_VAR + " " + B_VAR + "\n"
+print(CONCAT)
+TAM_STR = len(CONCAT)
+print(TAM_STR)
+
+print(CONCAT[0:14])
 
 ##metodos##
 
 #deixa tudo em caixa baixa
-print(concat.lower())
+print(CONCAT.lower())
 
 #deixa tudo de caxa alta
-print(concat.upper())
+print(CONCAT.upper())
 
 #remove espaços
-print(concat.strip())
+print(CONCAT.strip())
 
 #quebra uma string no que e definido
-string = "O rato roeu a roupa do rei de Roma"
-string = string.split(" ")
-print(string)
+STR = "O rato roeu a roupa do rei de Roma"
+STR = STR.split(" ")
+print(STR)
 
-#busca de substring
-string = "O rato roeu a roupa do rei de Roma"
-busca = string.find("rei")
-print(busca)
-print(string[busca:])
+#busca de subSTR
+STR = "O rato roeu a roupa do rei de Roma"
+STR_BUSCA = STR.find("rei")
+print(STR_BUSCA)
+print(STR[STR_BUSCA:])
 
-#substitui string
-print(string.replace("o rei", "a rainha"))
-
+#substitui STR
+print(STR.replace("o rei", "a rainha"))

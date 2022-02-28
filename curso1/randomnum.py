@@ -1,3 +1,7 @@
+"""
+Usuing random module
+"""
+
 import random
 
 #gera numero aleatorio no intervalo definido

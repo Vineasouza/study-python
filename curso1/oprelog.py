@@ -1,27 +1,27 @@
-#operadores relacionais
-x = 2
-y = 3
+"""
+foo
+"""
+
+X_VAR = 2
+Y_VAR = 3
 
 print("IGUAL:")
-print(x == y)
+print(X_VAR == Y_VAR)
 print("MAIOR IGUAL:")
-print(x >= y)
+print(X_VAR >= Y_VAR)
 print("MAIOR:")
-print(x > y)
+print(X_VAR > Y_VAR)
 print("MENOR IGUAL:")
-print(x <= y)
+print(X_VAR <= Y_VAR)
 print("MENOR:")
-print(x < y)
-
+print(X_VAR < Y_VAR)
 
 #operadores logicos
-x = 2
-y = 2
-z = 3
+X_VAR = 2
+Y_VAR = 2
+Z_VAR = 3
 
 print("AND:")
-print(x == y and x == z)
+print(X_VAR == Y_VAR and X_VAR == Z_VAR)
 print("OR:")
-print(x == y or x == z)
-
-
+print(X_VAR in (Y_VAR, Z_VAR))

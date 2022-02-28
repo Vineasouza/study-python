@@ -1,5 +1,9 @@
-numero = input("Digite um numero:")
-print("o numero e:", numero)
+"""
+Print User Input
+"""
 
-nome = input("Digite seu nome:")
-print("contatenar: ",nome)
+NUM = input("Digite um numero:")
+print("o numero e:", NUM)
+
+NAME = input("Digite seu nome:")
+print("contatenar: ", NAME)

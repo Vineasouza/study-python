@@ -1,18 +1,21 @@
-#comando while
-x = 0
+"""
+Using while loop
+"""
 
-while x < 10:
-    print(x)
-    x += 1
+X_VAR = 0
+
+while X_VAR < 10:
+    print(X_VAR)
+    X_VAR += 1
 
 #comando for
-lista1 = [1,2,3,4,5]
-lista2 = ["hello","world","!"]
+LISTA_1 = [1,2,3,4,5]
+LISTA_2 = ["hello","world","!"]
 
-for i in lista1:
+for i in LISTA_1:
     print(i)
 
-for i in lista2:
+for i in LISTA_2:
     print(i)
 
 #comando for...range
@@ -24,3 +27,4 @@ for i in range(10,20):
 
 for i in range(10,20,2):
     print(i)
+    

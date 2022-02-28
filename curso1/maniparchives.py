@@ -1,25 +1,26 @@
-arquivo = open("arquivo.txt")
+"""
+Manipulando arquivos de arquivos
+"""
 
-#readline le uma linha
-#readlines le o arquivo e armazena em uma lista
-linhas = arquivo.readlines()
-print(linhas)
+with open("arquivo.txt", encoding="utf8") as ARQUIVO_1:
+    #readline le uma linha
+    #readlines le o arquivo e armazena em uma lista
+    LINHAS = ARQUIVO_1.readlines()
+    print(LINHAS)
 
-for linhas in linhas:
-    print(linhas)
+    for LINHAS in LINHAS:
+        print(LINHAS)
 
-#read le o arquivo inteiro
-textoCompleto = arquivo.read()
-print(textoCompleto)
+    #read le o arquivo inteiro
+    TEXTO_COMPLETO = ARQUIVO_1.read()
+    print(TEXTO_COMPLETO)
 
 #manipulando - criando arquivo
-w = open("arquivo2.txt", "w")
-#escrevendo no arquivo
-w.write("esse e meu arquivo\n")
-#fechar arquivo
-w.close()
+with open("arquivo2.txt", "w", encoding="utf8") as ARQUIVO_2:
+    #escrevendo no arquivo
+    ARQUIVO_2.write("esse e meu arquivo\n")
+
 
 #manipulando - abrindo arquivo pra escrita
-w = open("arquivo2.txt", "a")
-w.write("esse e meu arquivo\n")
-w.close()
+with open("arquivo2.txt", "a", encoding="utf8") as ARQIVO_3:
+    ARQIVO_3.write("esse e meu arquivo\n")

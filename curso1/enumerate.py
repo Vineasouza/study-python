@@ -1,4 +1,6 @@
-#Funcao enumerate
+"""
+Using enumerate() function
+"""
 
 lista = ["abacate","bola","cachorro"]
 

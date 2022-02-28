@@ -1,8 +1,11 @@
-#funcao map
+"""
+Map function
+"""
 
-def dobro(x):
-    return x*2
+def dobro(x_param):
+    """Retorna o dobro."""
+    return x_param*2
 
-valor  = [1,2,3,4,5]
+VALOR_LIST  = [1,2,3,4,5]
 
-print(list(map(dobro, valor)))
+print(list(map(dobro, VALOR_LIST)))

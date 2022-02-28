@@ -1,21 +1,25 @@
 #-*- coding: utf-8 -*-
 
-message = "Hello World"
-print (message)
+"""
+Foo
+"""
+
+MESSAGE = "Hello World"
+print (MESSAGE)
 
 
 #variavel inteira
-var1 = 1
-print (var1)
+VAR_1 = 1
+print (VAR_1)
 
 #variavel float
-var2 = 1.1
-print (var2)
+VAR_2 = 1.1
+print (VAR_2)
 
 #variavel string
-var3 = "string"
-print (var3)
+VAR_3 = "string"
+print (VAR_3)
 
 #variavel booleana
-var4 = True
-print (var4)
+VAR_4 = True
+print (VAR_4)

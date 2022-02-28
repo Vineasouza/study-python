@@ -1,3 +1,7 @@
+"""
+Provides some conditions to use in the program.
+"""
+
 X = 1000
 Y = 1000
 
